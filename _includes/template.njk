@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Penzion u vody</title>
+	<title>{{title}}</title>
 
 	<!-- Google Fonts: Raleway 400, Open Sans 400(i)/700(i) -->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -47,7 +47,7 @@
 
 		<main class="main">
 		<!-- ↑↑↑ odtud nahoru je vrchní část společná pro všechny stránky na webu -->
-        
+        {{ content | safe }}
 		<!-- ↓↓↓ odtud dolů je spodní část společná pro všechny stránky na webu -->
 		</main>
 
